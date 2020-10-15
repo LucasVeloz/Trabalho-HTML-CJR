@@ -6,8 +6,9 @@ body{
     width: 1920px;
     height: 262px;
     background: #D11C1C;
-    background-image: linear-gradient(#FFFFFF, #D11c1c);
+    background-image: linear-gradient(#FFFFFF, #D11c1c, 29%);
     top: 0px;
+    left: 0px;
 }
 .header img{
     position: absolute;
@@ -19,13 +20,30 @@ body{
     position: absolute;
     width: 20px;
     height: 20px;
-    left: 1300px;
-    top: 10px
+    left: 1750px;;
+    top: 20px
 }
 .profile img{
     position: absolute;
     width: 20px;
     height: 20px;
-    left: 1250px;
-    top: 10px
+    left: 1700px;
+    top: 20px
+}
+.header p{
+    text-align: center;
+    line-height: 300px;
+    color: #ffffff;
+    font-size: 1.5em;
+}
+.profilePic{
+    text-align: center;
+}
+.profilePic img{
+    width: auto;
+    height: auto;
+    position: relative;
+    border-radius: 50%;
+    top: -150px;
+    left: -5px;
 }
