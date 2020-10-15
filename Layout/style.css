@@ -6,10 +6,26 @@ body{
     width: 1920px;
     height: 262px;
     background: #D11C1C;
+    background-image: linear-gradient(#FFFFFF, #D11c1c);
+    top: 0px;
 }
 .header img{
     position: absolute;
     width: 198px;
     height: 58px;
     left: 50px;
+}
+.logout img{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1300px;
+    top: 10px
+}
+.profile img{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1250px;
+    top: 10px
 }
