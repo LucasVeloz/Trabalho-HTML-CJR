@@ -23,7 +23,6 @@ body{
 .upHeader a{
     text-decoration: none;
     margin: 0 10px;
-
 }
 .upHeader ul{
     margin:0;
@@ -66,4 +65,97 @@ body{
 }
 .nav strong{
     color:#D11C1C;
+}
+.divBusca{
+    margin-left: 50px;
+    background-color:#D11C1C;
+    border:solid 1px;
+    border-radius:15px;
+    width:300px;
+}
+
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:19px;
+    width:260px;
+}
+.divBusca img{
+    width: 15px;
+}
+.caixaDeCaixa{
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.caixaDeCaixa2{
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.caixaPokemon{
+    margin: 20px;
+    width: 467px;
+    height: 163px;
+
+    background: transparent;
+    border: 2px solid #D11C1C;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+}
+.caixaDireita{
+    justify-content: space-between;
+}
+.pokemon{
+}
+.caixaPokemon p{
+    text-align: left;
+    margin: 0;
+}
+.estrela{
+    float: right;
+    width: 10%;
+    height: 10%;
+    margin-right: 20px;
+}
+.box{
+    background: #828282;
+    border-radius: 10px;
+    width: 40%;
+    text-align: center;
+}
+.box p{
+    color: white;
+    text-align: center;
+}
+.boxGrass{
+    background: #27AE60;
+    border-radius: 10px;    
+    width: 40%;
+    justify-content: space-between;
+    text-align: center;
+}
+.boxGrass p{
+    color: white;
+    text-align: center;
+}
+.boxPoison{
+    background: #9B51E0;
+    border-radius: 10px;
+    width: 40%;
+    justify-content: space-between;
+    text-align: center;
+}
+.boxPoison p{
+    color: white;
+    text-align: center;
+}
+.caixaDireita ul{
+    list-style: none;
+    padding: 0;
 }
