@@ -51,48 +51,42 @@ body{
 .back p{
     margin: 0 5px;
 }
-.caixaDeCaixa{
-    margin: 50px;
+.caixaDoPokemon{
     display: flex;
-    justify-content: space-between;
+    margin: 30px 0;
+    
 }
-.caixaDeCaixa2{
-    margin: 50px;
-    display: flex;
-    justify-content: space-between;
+.caixaDoPokemon img{
+    margin: 30px;
+    width: 150%;
 }
-.caixaPokemon{
-    width: 90%;
-    height: 85%;
-
-    background: transparent;
-    border: 2px solid #D11C1C;
-    box-sizing: border-box;
-    border-radius: 5px;
-    display: flex;
+.caixaDoPokemon ul{
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.caixaDoPokemon li{
+    display: inline-block;
+    margin-left: 30%;
 }
 .caixaDireita{
-    justify-content: space-between;
+    display: inline-block;
 }
-.pokemon{
+.caixaDireita p{
+    font-size: 1.25em;
 }
-.caixaPokemon p{
-    text-align: left;
-    margin: 0;
-}
-.estrela{
-    float: right;
-    width: 15%;
-    height: 15%;
-    margin-right: 20px;
+.caixaDireita strong{
+    font-size: 2.5em;
 }
 .box{
     background: #828282;
     border-radius: 10px;
-    width: 40%;
+    width: 100%;
     text-align: center;
 }
 .box p{
+    font-size: 1.5em;
     color: white;
     text-align: center;
 }
@@ -117,16 +111,4 @@ body{
 .boxPoison p{
     color: white;
     text-align: center;
-}
-.caixaDeCaixa a{
-    color: inherit;
-    text-decoration: none;
-    display: flex;
-    margin: 20px;
-}
-.caixaDeCaixa2 a{
-    color: inherit;
-    text-decoration: none;
-    display: flex;
-    margin: 20px;
 }

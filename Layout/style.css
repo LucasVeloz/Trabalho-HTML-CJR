@@ -28,9 +28,8 @@ body{
     margin:0;
 }
 .upHeader li{
-    display: inline-block;
+    display: inline-block; 
     margin:0;
-
 }
 .profile{
     text-align: center;
