@@ -1,76 +1,69 @@
 body{
     background-color: #ffffff;
+    margin: 0;
 }
 .header{
-    position: absolute;
-    width: 1920px;
+    position: relative;
+    width: 100%;
     height: 262px;
     background: #D11C1C;
     background-image: linear-gradient(#FFFFFF, #D11c1c, 29%);
-    top: 0px;
-    left: 0px;
 }
-.header img{
-    position: absolute;
-    width: 198px;
+.upHeader img{
+    width: auto;
     height: 58px;
     left: 50px;
+    color: white;
 }
-.logout img{
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 1750px;;
-    top: 20px;
-    /*background-color: white;*/
+.upHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+.upHeader a{
+    text-decoration: none;
+    margin: 0 10px;
+
+}
+.upHeader ul{
+    margin:0;
+}
+.upHeader li{
+    display: inline-block;
+    margin:0;
+
+}
+.profile{
+    text-align: center;
+    margin: 60px;
 }
 .profile img{
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 1700px;
-    top: 20px;
-    /*background-color: white;*/
+    border-radius: 50%;
 }
-.header p{
-    text-align: center;
-    line-height: 300px;
-    color: #ffffff;
+.profile p{
+    color: white;
     font-size: 1.5em;
 }
-.profilePic{
+.nav{
+    display: flex;
+    padding: 70px 15px;
     text-align: center;
-}
-.profilePic img{
-    width: auto;
-    height: auto;
-    position: relative;
-    border-radius: 50%;
-    top: -150px;
-    left: -5px;
-}
-.options{
-    text-align: center;
-}
-.options a{
-    text-align: center;
-    height: 10px;
-    color: black;
-}
-#divBusca{
-    background-color:#2F4F4F;
-    border:solid 1px;
-    border-radius:15px;
-    width:300px;
-}
+    justify-content: center;
 
-#txtBusca{
-    float:left;
-    background-color:transparent;
-    padding-left:5px;
-    font-style:italic;
-    font-size:18px;
-    border:none;
-    height:32px;
-    width:260px;
+}
+.nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 50px;
+}
+.nav li{
+
+}
+.nav a{
+    color: inherit;
+    text-decoration: none;
+    margin: 0 20px;
+}
+.nav strong{
+    color:#D11C1C;
 }
